@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans,sans-serif;
+}
+/* impostazioni generiche float */
+.fl {
+  float: left;
+}
+.fr {
+  float:right;
+}
+.noflyzone::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wrap {
+  margin: 0 auto;
+  width: 70%;
+}
+/* FINE impostazioni generiche float */
+/* HEADER */
+/* impostazioni navigator */
+.navigator {
+  margin: 0 auto;
+  padding: 15px 0;
+  background: white;
+  z-index: 23;
+  position: fixed;
+  top: 0;
+}
+#ship li {
+  display:inline-block;
+  padding: 0 3px;
+}
+#ship a {
+  color:black;
+  text-decoration: none;
+}
+/* fine impostazioni navigator */
+
+/* impostazioni jumbo */
+#jumbo {
+  margin: 0 auto;
+  height: 554px;
+  background-image: url(../img/jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.motto {
+  color:white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.motto h1 {
+  font-size: 50px;
+  padding: 0 0 10px;
+}
+.motto p {
+  padding: 0 0 10px;
+}
+.motto img {
+  height: 45px;
+}
+/* fine impostazioni jumbo */
+
+/* FINE HEADER */
+/* MAIN */
+/* option menu */
+main .option {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+main .option .emove {
+  text-align: center;
+  background-color: #fafafa;
+}
+.emove a {
+  color:blue;
+  text-decoration: none;
+}
+.option .emove h2 {
+  padding: 50px 0 25px 0;
+}
+.option .emove p {
+  padding-bottom: 20px;
+}
+/* fine option menu */
+
+/* banner */
+main #oldman {
+  position: relative;
+}
+#banner {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 702px;
+}
+#banner .phone {
+  width: 20%;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+.pop {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 25px;
+}
+.pap {
+  margin-top: 150px;
+  padding-left: 150px;
+}
+/* banner segway */
+#seg {
+  margin-top: 150px;
+  background-image: url(../img/wildseg.jpg);
+  height: 500px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.mobility {
+  color: white;
+  padding-top: 150px;
+  text-align: center;
+}
+.mobility h2 {
+  font-size: 40px;
+}
+.mobility p {
+  font-size: 20px;
+}
+.mobility h2, p {
+  padding-bottom: 20px;
+}
+.mobility a p {
+  color: white;
+  text-decoration: none;
+}
+/* fine banner segway */
+
+/* trovaci e app */
+.look {
+  padding-bottom: 30px;
+}
+.get {
+  background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+  height: 400px;
+  position: relative;
+}
+.got a {
+  color: white;
+  text-decoration: none;
+}
+.get img {
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 68.5%;
+  transform: translate(-50%, -50%);
+}
+.find {
+  background-image: url(../img/city.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 400px;
+}
+.got {
+  background-color: ;
+  height: ;
+  text-align: center;
+  color:white;
+  padding:top 10px;
+}
+.got h2 {
+  padding : 20px 0 ;
+}
+/* fine trovaci e app */
+
+/* social network banner */
+#socialnet {
+  background-image: url(../img/socnet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.socialbann {
+  background-color: white;
+  text-align: center;
+  padding: 60px 100px;
+  position: absolute;
+  left: 50%;
+  top : 50%;
+  transform: translate(-50%, -50%);
+}
+.socialbann h2 {
+  font-size: 35px;
+}
+.socialbann ul li {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 30px;
+  color: black;
+}
+
+.socialbann li a {
+  color:black;
+}
+/* fine social network banner */
+
+/* FINE MAIN */
+/* INIZIO FOOTER */
+footer {
+  background-color: black;
+  height: 600px;
+  width: 100%;
+}
+footer .foothouse {
+  padding-top: 50px;
+  height: 500px;
+  width: 60%;
+  margin: 0 auto;
+}
+.foothouse h3 {
+  color:white;
+}
+.footer li a {
+  color:white;
+}
+.footer .icon li {
+  display: inline-block;
+}
+div.foothouse ul li a {
+  color:grey;
+  text-decoration: none;
+}
+div.foothouse p a {
+  color:white;
+  text-decoration: none;
+}
+div.foothouse .icon a{
+  color:white;
+  font-size: 20px;
+  padding: 5px;
+}
+div.foothouse hr {
+  color:grey;
+}
+#firrowfot > div > ul > li {
+  padding: 10px 0 10px 0 ;
+}
+#firrowfot {
+  height: 300px;
+}
+#secorowfot {
+  height: 100px;
+  padding-top:40px;
+}
+#thirowfot {
+  padding-top:30px;
+}
+#thirwfot img{
+  border: white solid 1px;
+  border-radius: 20%;
+}
+#thirowfot > a:nth-child(1) > img,
+#thirowfot > a:nth-child(2) > img {
+  border: white solid 1px;
+  border-radius: 5%;
+}
+/* fine footer */
+
+/* INIZIO MEDIA QUERY MD */
+@media screen and (min-width:768px) and (max-width:991px){
+  /* MENU NAVIGATOR */
+  .menuburg {
+    padding-right: 30px;
+  }
+  .brand {
+    padding-left: 30px;
+  }
+  /* FINE MENU NAVIGATOR */
+  /* SCELTA VEICOLO */
+  .emove img{
+    width: 240px;
+  }
+  /* FINE SCELTA VEICOLO */
+  /* BANNER COSE CON ANZIANO*/
+  main #oldman {
+    position: relative;
+  }
+  #banner .phone {
+    height: 720px;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
+  .Howworkmdxs {
+    padding: 200px 0px 0px 150px;
+  }
+  .Howworkmdxs h2, p {
+    padding: 0;
+  }
+  /* FINE BANNER ANZIANO */
+  /* Segway banner */
+  .mobility h2 {
+    font-size: 30px;
+  }
+  .mobility p {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  /* Fine Segway banner */
+  footer .foothouse {
+    width: 80%;
+  }
+  #thirwofot img {
+    padding-left: 15px;
+  }
+}
