@@ -135,6 +135,6 @@
   .col-xs-offset-10 { margin-left: calc((100%/12) * 10); }
   .col-xs-offset-11 { margin-left: calc((100%/12) * 11); } /* 100% offset */
 
-  .xs-display--none { display: none; }
+  .xs-display-none { display: none; }
 }
 /* END FRAMEWORK */

@@ -293,7 +293,7 @@ div.foothouse hr {
   /* FINE MENU NAVIGATOR */
   /* SCELTA VEICOLO */
   .emove img{
-    width: 240px;
+    width: 224px;
   }
   /* FINE SCELTA VEICOLO */
   /* BANNER COSE CON ANZIANO*/
@@ -316,6 +316,9 @@ div.foothouse hr {
   }
   /* FINE BANNER ANZIANO */
   /* Segway banner */
+  .mobility {
+    padding-top: 90px;
+  }
   .mobility h2 {
     font-size: 30px;
   }
@@ -323,11 +326,92 @@ div.foothouse hr {
     font-size: 15px;
     padding-top: 10px;
   }
+  /* Mid social network banner */
+  .socialbann h2 {
+    font-size: 20px;
+  }
+  .socialbann {
+    padding: 40px 100px;
+  }
+  .socialbann ul li {
+    font-size: 15px;
+  }
   /* Fine Segway banner */
   footer .foothouse {
     width: 80%;
   }
+  /* immagini footer */
   #thirwofot img {
     padding-left: 15px;
+  }
+  #thirowfot > a:nth-child(1) > img, #thirowfot > a:nth-child(2) > img {
+    height: 25px;
+    margin-left: 10px;
+  }
+}
+@media all and (max-width:767px){
+  .menuburg {
+    padding-right: 30px;
+  }
+  .brand {
+    padding-left: 30px;
+  }
+  div.emove:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  #banner {
+    height: 400px;
+  }
+  #banner .phone {
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    transform: translate(-50%, -50%);
+  }
+  .Howworkmdxs {
+    padding: 200px 0px 0px 100px;
+  }
+  .Howworkmdxs h2, p {
+    padding: 0;
+  }
+  .get {
+    margin-bottom: 20px;
+  }
+  .mobility {
+    padding-top: 120px;
+  }
+  .socialbann h2 {
+    font-size: 15px;
+  }
+  .socialbann {
+    padding: 40px 100px;
+  }
+  .socialbann ul li {
+    font-size: 10px;
+    padding: 0 8px;
+  }
+  #firrowfot img {
+    padding-bottom: 20px
+  }
+  #firrowfot a {
+    font-size: 15px;
+  }
+  #secorowfot {
+    padding-top: 50px;
+  }
+  #secorowfot a {
+    font-size: 15px;
+  }
+  #secorowfot .icon a {
+    font-size: 20px;
+  }
+  #thirowfot {
+    padding-top: 75px;
+    margin-left: 130px;
+  }
+  #thirowfot > a:nth-child(1) > img, #thirowfot > a:nth-child(2) > img {
+    height: 15px;
   }
 }
